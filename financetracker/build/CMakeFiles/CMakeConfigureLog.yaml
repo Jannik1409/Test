@@ -1,0 +1,2592 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+    searched_directories:
+      - "/data/data/com.termux/files/home/.opencode/bin/uname"
+      - "/data/data/com.termux/files/home/bin/uname"
+    found: "/data/data/com.termux/files/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Android - 36 - aarch64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+    searched_directories:
+      - "/data/data/com.termux/files/home/.opencode/bin/gmake"
+      - "/data/data/com.termux/files/home/bin/gmake"
+      - "/data/data/com.termux/files/usr/bin/gmake"
+      - "/product/bin/gmake"
+      - "/apex/com.android.runtime/bin/gmake"
+      - "/apex/com.android.art/bin/gmake"
+      - "/apex/com.android.virt/bin/gmake"
+      - "/system_ext/bin/gmake"
+      - "/system/bin/gmake"
+      - "/system/xbin/gmake"
+      - "/odm/bin/gmake"
+      - "/vendor/bin/gmake"
+      - "/vendor/xbin/gmake"
+      - "/data/data/com.termux/files/home/.opencode/bin/make"
+      - "/data/data/com.termux/files/home/bin/make"
+    found: "/data/data/com.termux/files/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+    searched_directories:
+      - "/data/data/com.termux/files/home/.opencode/bin/c++"
+      - "/data/data/com.termux/files/home/bin/c++"
+    found: "/data/data/com.termux/files/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/"
+    found: "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /data/data/com.termux/files/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /data/data/com.termux/files/home/financetracker/build/CMakeFiles/4.3.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar"
+      - "ar"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+    found: "/data/data/com.termux/files/usr/bin/llvm-ar"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+    found: "/data/data/com.termux/files/usr/bin/llvm-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-strip"
+      - "strip"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+    found: "/data/data/com.termux/files/usr/bin/llvm-strip"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+    found: "/data/data/com.termux/files/usr/bin/ld.lld"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+    found: "/data/data/com.termux/files/usr/bin/llvm-nm"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+    found: "/data/data/com.termux/files/usr/bin/llvm-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+    found: "/data/data/com.termux/files/usr/bin/llvm-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+    found: "/data/data/com.termux/files/usr/bin/llvm-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+    found: "/data/data/com.termux/files/usr/bin/llvm-dlltool"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+    found: "/data/data/com.termux/files/usr/bin/llvm-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+    searched_directories:
+      - "/data/data/com.termux/files/usr/bin/tapi"
+      - "/data/data/com.termux/files/home/.opencode/bin/tapi"
+      - "/data/data/com.termux/files/home/bin/tapi"
+      - "/product/bin/tapi"
+      - "/apex/com.android.runtime/bin/tapi"
+      - "/apex/com.android.art/bin/tapi"
+      - "/apex/com.android.virt/bin/tapi"
+      - "/system_ext/bin/tapi"
+      - "/system/bin/tapi"
+      - "/system/xbin/tapi"
+      - "/odm/bin/tapi"
+      - "/vendor/bin/tapi"
+      - "/vendor/xbin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-21.1"
+      - "llvm-ar-21"
+      - "llvm-ar21"
+      - "llvm-ar"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+    searched_directories:
+      - "/data/data/com.termux/files/usr/bin/llvm-ar-21.1"
+      - "/data/data/com.termux/files/home/.opencode/bin/llvm-ar-21.1"
+      - "/data/data/com.termux/files/home/bin/llvm-ar-21.1"
+      - "/product/bin/llvm-ar-21.1"
+      - "/apex/com.android.runtime/bin/llvm-ar-21.1"
+      - "/apex/com.android.art/bin/llvm-ar-21.1"
+      - "/apex/com.android.virt/bin/llvm-ar-21.1"
+      - "/system_ext/bin/llvm-ar-21.1"
+      - "/system/bin/llvm-ar-21.1"
+      - "/system/xbin/llvm-ar-21.1"
+      - "/odm/bin/llvm-ar-21.1"
+      - "/vendor/bin/llvm-ar-21.1"
+      - "/vendor/xbin/llvm-ar-21.1"
+      - "/data/data/com.termux/files/usr/bin/llvm-ar-21"
+      - "/data/data/com.termux/files/home/.opencode/bin/llvm-ar-21"
+      - "/data/data/com.termux/files/home/bin/llvm-ar-21"
+      - "/product/bin/llvm-ar-21"
+      - "/apex/com.android.runtime/bin/llvm-ar-21"
+      - "/apex/com.android.art/bin/llvm-ar-21"
+      - "/apex/com.android.virt/bin/llvm-ar-21"
+      - "/system_ext/bin/llvm-ar-21"
+      - "/system/bin/llvm-ar-21"
+      - "/system/xbin/llvm-ar-21"
+      - "/odm/bin/llvm-ar-21"
+      - "/vendor/bin/llvm-ar-21"
+      - "/vendor/xbin/llvm-ar-21"
+      - "/data/data/com.termux/files/usr/bin/llvm-ar21"
+      - "/data/data/com.termux/files/home/.opencode/bin/llvm-ar21"
+      - "/data/data/com.termux/files/home/bin/llvm-ar21"
+      - "/product/bin/llvm-ar21"
+      - "/apex/com.android.runtime/bin/llvm-ar21"
+      - "/apex/com.android.art/bin/llvm-ar21"
+      - "/apex/com.android.virt/bin/llvm-ar21"
+      - "/system_ext/bin/llvm-ar21"
+      - "/system/bin/llvm-ar21"
+      - "/system/xbin/llvm-ar21"
+      - "/odm/bin/llvm-ar21"
+      - "/vendor/bin/llvm-ar21"
+      - "/vendor/xbin/llvm-ar21"
+    found: "/data/data/com.termux/files/usr/bin/llvm-ar"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-21.1"
+      - "llvm-ranlib-21"
+      - "llvm-ranlib21"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+    searched_directories:
+      - "/data/data/com.termux/files/usr/bin/llvm-ranlib-21.1"
+      - "/data/data/com.termux/files/home/.opencode/bin/llvm-ranlib-21.1"
+      - "/data/data/com.termux/files/home/bin/llvm-ranlib-21.1"
+      - "/product/bin/llvm-ranlib-21.1"
+      - "/apex/com.android.runtime/bin/llvm-ranlib-21.1"
+      - "/apex/com.android.art/bin/llvm-ranlib-21.1"
+      - "/apex/com.android.virt/bin/llvm-ranlib-21.1"
+      - "/system_ext/bin/llvm-ranlib-21.1"
+      - "/system/bin/llvm-ranlib-21.1"
+      - "/system/xbin/llvm-ranlib-21.1"
+      - "/odm/bin/llvm-ranlib-21.1"
+      - "/vendor/bin/llvm-ranlib-21.1"
+      - "/vendor/xbin/llvm-ranlib-21.1"
+      - "/data/data/com.termux/files/usr/bin/llvm-ranlib-21"
+      - "/data/data/com.termux/files/home/.opencode/bin/llvm-ranlib-21"
+      - "/data/data/com.termux/files/home/bin/llvm-ranlib-21"
+      - "/product/bin/llvm-ranlib-21"
+      - "/apex/com.android.runtime/bin/llvm-ranlib-21"
+      - "/apex/com.android.art/bin/llvm-ranlib-21"
+      - "/apex/com.android.virt/bin/llvm-ranlib-21"
+      - "/system_ext/bin/llvm-ranlib-21"
+      - "/system/bin/llvm-ranlib-21"
+      - "/system/xbin/llvm-ranlib-21"
+      - "/odm/bin/llvm-ranlib-21"
+      - "/vendor/bin/llvm-ranlib-21"
+      - "/vendor/xbin/llvm-ranlib-21"
+      - "/data/data/com.termux/files/usr/bin/llvm-ranlib21"
+      - "/data/data/com.termux/files/home/.opencode/bin/llvm-ranlib21"
+      - "/data/data/com.termux/files/home/bin/llvm-ranlib21"
+      - "/product/bin/llvm-ranlib21"
+      - "/apex/com.android.runtime/bin/llvm-ranlib21"
+      - "/apex/com.android.art/bin/llvm-ranlib21"
+      - "/apex/com.android.virt/bin/llvm-ranlib21"
+      - "/system_ext/bin/llvm-ranlib21"
+      - "/system/bin/llvm-ranlib21"
+      - "/system/xbin/llvm-ranlib21"
+      - "/odm/bin/llvm-ranlib21"
+      - "/vendor/bin/llvm-ranlib21"
+      - "/vendor/xbin/llvm-ranlib21"
+    found: "/data/data/com.termux/files/usr/bin/llvm-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-21.1"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+    searched_directories:
+      - "/data/data/com.termux/files/usr/bin/clang-scan-deps-21.1"
+      - "/data/data/com.termux/files/home/.opencode/bin/clang-scan-deps-21.1"
+      - "/data/data/com.termux/files/home/bin/clang-scan-deps-21.1"
+      - "/product/bin/clang-scan-deps-21.1"
+      - "/apex/com.android.runtime/bin/clang-scan-deps-21.1"
+      - "/apex/com.android.art/bin/clang-scan-deps-21.1"
+      - "/apex/com.android.virt/bin/clang-scan-deps-21.1"
+      - "/system_ext/bin/clang-scan-deps-21.1"
+      - "/system/bin/clang-scan-deps-21.1"
+      - "/system/xbin/clang-scan-deps-21.1"
+      - "/odm/bin/clang-scan-deps-21.1"
+      - "/vendor/bin/clang-scan-deps-21.1"
+      - "/vendor/xbin/clang-scan-deps-21.1"
+      - "/data/data/com.termux/files/usr/bin/clang-scan-deps-21"
+      - "/data/data/com.termux/files/home/.opencode/bin/clang-scan-deps-21"
+      - "/data/data/com.termux/files/home/bin/clang-scan-deps-21"
+      - "/product/bin/clang-scan-deps-21"
+      - "/apex/com.android.runtime/bin/clang-scan-deps-21"
+      - "/apex/com.android.art/bin/clang-scan-deps-21"
+      - "/apex/com.android.virt/bin/clang-scan-deps-21"
+      - "/system_ext/bin/clang-scan-deps-21"
+      - "/system/bin/clang-scan-deps-21"
+      - "/system/xbin/clang-scan-deps-21"
+      - "/odm/bin/clang-scan-deps-21"
+      - "/vendor/bin/clang-scan-deps-21"
+      - "/vendor/xbin/clang-scan-deps-21"
+      - "/data/data/com.termux/files/usr/bin/clang-scan-deps21"
+      - "/data/data/com.termux/files/home/.opencode/bin/clang-scan-deps21"
+      - "/data/data/com.termux/files/home/bin/clang-scan-deps21"
+      - "/product/bin/clang-scan-deps21"
+      - "/apex/com.android.runtime/bin/clang-scan-deps21"
+      - "/apex/com.android.art/bin/clang-scan-deps21"
+      - "/apex/com.android.virt/bin/clang-scan-deps21"
+      - "/system_ext/bin/clang-scan-deps21"
+      - "/system/bin/clang-scan-deps21"
+      - "/system/xbin/clang-scan-deps21"
+      - "/odm/bin/clang-scan-deps21"
+      - "/vendor/bin/clang-scan-deps21"
+      - "/vendor/xbin/clang-scan-deps21"
+    found: "/data/data/com.termux/files/usr/bin/clang-scan-deps"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/CMakeScratch/TryCompile-FWKLbH"
+      binary: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/CMakeScratch/TryCompile-FWKLbH"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/data/data/com.termux/files/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/financetracker/build/CMakeFiles/CMakeScratch/TryCompile-FWKLbH'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_aca50/fast
+        make[1]: Entering directory '/data/data/com.termux/files/home/financetracker/build/CMakeFiles/CMakeScratch/TryCompile-FWKLbH'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_aca50.dir/build.make CMakeFiles/cmTC_aca50.dir/build
+        make[2]: Entering directory '/data/data/com.termux/files/home/financetracker/build/CMakeFiles/CMakeScratch/TryCompile-FWKLbH'
+        Building CXX object CMakeFiles/cmTC_aca50.dir/CMakeCXXCompilerABI.cpp.o
+        /data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_aca50.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_aca50.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_aca50.dir/CMakeCXXCompilerABI.cpp.o -c /data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp
+        clang version 21.1.8
+        Target: aarch64-unknown-linux-android30
+        Thread model: posix
+        InstalledDir: /data/data/com.termux/files/usr/bin
+         (in-process)
+         "/data/data/com.termux/files/usr/bin/c++" -cc1 -triple aarch64-unknown-linux-android30 -O2 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/data/data/com.termux/files/home/financetracker/build/CMakeFiles/CMakeScratch/TryCompile-FWKLbH -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/financetracker/build/CMakeFiles/CMakeScratch/TryCompile-FWKLbH -resource-dir /data/data/com.termux/files/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_aca50.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_aca50.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files/usr/bin/../.. -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1 -internal-isystem /data/data/com.termux/files/usr/lib/clang/21/include -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include -fdeprecated-macro -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_aca50.dir/CMakeCXXCompilerABI.cpp.o -x c++ /data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target aarch64-unknown-linux-android30
+        ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../usr/local/include"
+        ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1
+         /data/data/com.termux/files/usr/lib/clang/21/include
+         /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android
+         /data/data/com.termux/files/usr/bin/../../usr/include
+        End of search list.
+        Linking CXX executable cmTC_aca50
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aca50.dir/link.txt --verbose=1
+        clang version 21.1.8
+        Target: aarch64-unknown-linux-android30
+        Thread model: posix
+        InstalledDir: /data/data/com.termux/files/usr/bin
+         "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files/usr/bin/../.. -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --use-android-relr-tags --pack-dyn-relocs=relr --hash-style=gnu -rpath=/data/data/com.termux/files/usr/bin/../../usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_aca50 /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/bin/../../usr/lib -L/system/lib64 CMakeFiles/cmTC_aca50.dir/CMakeCXXCompilerABI.cpp.o -lc++_shared /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lm -lc /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o
+        /data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG  -v CMakeFiles/cmTC_aca50.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_aca50
+        make[2]: Leaving directory '/data/data/com.termux/files/home/financetracker/build/CMakeFiles/CMakeScratch/TryCompile-FWKLbH'
+        make[1]: Leaving directory '/data/data/com.termux/files/home/financetracker/build/CMakeFiles/CMakeScratch/TryCompile-FWKLbH'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/data/data/com.termux/files/usr/bin/../../usr/include/c++/v1]
+          add: [/data/data/com.termux/files/usr/lib/clang/21/include]
+          add: [/data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android]
+          add: [/data/data/com.termux/files/usr/bin/../../usr/include]
+        end of search list found
+        collapse include dir [/data/data/com.termux/files/usr/bin/../../usr/include/c++/v1] ==> [/data/data/com.termux/files/usr/include/c++/v1]
+        collapse include dir [/data/data/com.termux/files/usr/lib/clang/21/include] ==> [/data/data/com.termux/files/usr/lib/clang/21/include]
+        collapse include dir [/data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android] ==> [/data/data/com.termux/files/usr/include/aarch64-linux-android]
+        collapse include dir [/data/data/com.termux/files/usr/bin/../../usr/include] ==> [/data/data/com.termux/files/usr/include]
+        implicit include dirs: [/data/data/com.termux/files/usr/include/c++/v1;/data/data/com.termux/files/usr/lib/clang/21/include;/data/data/com.termux/files/usr/include/aarch64-linux-android;/data/data/com.termux/files/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/data/data/com.termux/files/home/financetracker/build/CMakeFiles/CMakeScratch/TryCompile-FWKLbH']
+        ignore line: []
+        ignore line: [Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_aca50/fast]
+        ignore line: [make[1]: Entering directory '/data/data/com.termux/files/home/financetracker/build/CMakeFiles/CMakeScratch/TryCompile-FWKLbH']
+        ignore line: [/data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_aca50.dir/build.make CMakeFiles/cmTC_aca50.dir/build]
+        ignore line: [make[2]: Entering directory '/data/data/com.termux/files/home/financetracker/build/CMakeFiles/CMakeScratch/TryCompile-FWKLbH']
+        ignore line: [Building CXX object CMakeFiles/cmTC_aca50.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_aca50.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_aca50.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_aca50.dir/CMakeCXXCompilerABI.cpp.o -c /data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: aarch64-unknown-linux-android30]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/data/data/com.termux/files/usr/bin/c++" -cc1 -triple aarch64-unknown-linux-android30 -O2 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/data/data/com.termux/files/home/financetracker/build/CMakeFiles/CMakeScratch/TryCompile-FWKLbH -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/financetracker/build/CMakeFiles/CMakeScratch/TryCompile-FWKLbH -resource-dir /data/data/com.termux/files/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_aca50.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_aca50.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files/usr/bin/../.. -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1 -internal-isystem /data/data/com.termux/files/usr/lib/clang/21/include -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include -fdeprecated-macro -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_aca50.dir/CMakeCXXCompilerABI.cpp.o -x c++ /data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target aarch64-unknown-linux-android30]
+        ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1]
+        ignore line: [ /data/data/com.termux/files/usr/lib/clang/21/include]
+        ignore line: [ /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android]
+        ignore line: [ /data/data/com.termux/files/usr/bin/../../usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_aca50]
+        ignore line: [/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aca50.dir/link.txt --verbose=1]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: aarch64-unknown-linux-android30]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
+        link line: [ "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files/usr/bin/../.. -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --use-android-relr-tags --pack-dyn-relocs=relr --hash-style=gnu -rpath=/data/data/com.termux/files/usr/bin/../../usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_aca50 /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/bin/../../usr/lib -L/system/lib64 CMakeFiles/cmTC_aca50.dir/CMakeCXXCompilerABI.cpp.o -lc++_shared /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lm -lc /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o]
+          arg [/data/data/com.termux/files/usr/bin/ld.lld] ==> ignore
+          arg [--sysroot=/data/data/com.termux/files/usr/bin/../..] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=16384] ==> ignore
+          arg [--use-android-relr-tags] ==> ignore
+          arg [--pack-dyn-relocs=relr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-rpath=/data/data/com.termux/files/usr/bin/../../usr/lib] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_aca50] ==> ignore
+          arg [/data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o] ==> obj [/data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o]
+          arg [-L/data/data/com.termux/files/usr/bin/../../usr/lib] ==> dir [/data/data/com.termux/files/usr/bin/../../usr/lib]
+          arg [-L/system/lib64] ==> dir [/system/lib64]
+          arg [CMakeFiles/cmTC_aca50.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++_shared] ==> lib [c++_shared]
+          arg [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lm] ==> lib [m]
+          arg [-lc] ==> lib [c]
+          arg [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [/data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o] ==> obj [/data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o]
+        linker tool for 'CXX': /data/data/com.termux/files/usr/bin/ld.lld
+        remove lib [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        remove lib [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        collapse obj [/data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o] ==> [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o]
+        collapse obj [/data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o] ==> [/data/data/com.termux/files/usr/lib/crtend_android.o]
+        collapse library dir [/data/data/com.termux/files/usr/bin/../../usr/lib] ==> [/data/data/com.termux/files/usr/lib]
+        collapse library dir [/system/lib64] ==> [/system/lib64]
+        implicit libs: [c++_shared;-l:libunwind.a;dl;m;c;-l:libunwind.a;dl]
+        implicit objs: [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o;/data/data/com.termux/files/usr/lib/crtend_android.o]
+        implicit dirs: [/data/data/com.termux/files/usr/lib;/system/lib64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/data/data/com.termux/files/usr/bin/ld.lld" "-v"
+      LLD 21.1.8 (compatible with GNU linkers)
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt5Core"
+    configs:
+      -
+        filename: "Qt5Core.cps"
+        kind: "cps"
+      -
+        filename: "qt5core.cps"
+        kind: "cps"
+      -
+        filename: "Qt5CoreConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5core-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt5Core"
+      search_paths:
+        - "/data/data/com.termux/files/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/Qt5CoreConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/qt5core-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/lib64/cps/Qt5Core.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/lib64/cps/qt5core.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/lib/cps/Qt5Core.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/lib/cps/qt5core.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/share/cps/Qt5Core.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/share/cps/qt5core.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5CoreConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/qt5core-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake"
+      mode: "config"
+      version: "5.15.18"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/data/data/com.termux/files/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:22 (find_library)"
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:67 (_qt5gui_find_extra_libs)"
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:232 (include)"
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:99 (find_package)"
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "Qt5Gui_EGL_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "EGL"
+    candidate_directories:
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+      - "/data/data/com.termux/files/usr/lib/"
+      - "/data/data/com.termux/files/usr/"
+    searched_directories:
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    found: "/data/data/com.termux/files/usr/lib/libEGL.so"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/data/data/com.termux/files/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:50 (find_library)"
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:67 (_qt5gui_find_extra_libs)"
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:232 (include)"
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:99 (find_package)"
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "Qt5Gui_EGL_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "EGLd"
+    candidate_directories:
+      - "/data/data/com.termux/files/home/financetracker/"
+    searched_directories:
+      - "/data/data/com.termux/files/home/financetracker/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/data/data/com.termux/files/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:22 (find_library)"
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:69 (_qt5gui_find_extra_libs)"
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:232 (include)"
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:99 (find_package)"
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "Qt5Gui_GL_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GL"
+    candidate_directories:
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+      - "/data/data/com.termux/files/usr/lib/"
+      - "/data/data/com.termux/files/usr/"
+    searched_directories:
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    found: "/data/data/com.termux/files/usr/lib/libGL.so"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/data/data/com.termux/files/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:50 (find_library)"
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:69 (_qt5gui_find_extra_libs)"
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:232 (include)"
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:99 (find_package)"
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "Qt5Gui_GL_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GLd"
+    candidate_directories:
+      - "/data/data/com.termux/files/home/financetracker/"
+    searched_directories:
+      - "/data/data/com.termux/files/home/financetracker/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/data/data/com.termux/files/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:99 (find_package)"
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt5Gui"
+    configs:
+      -
+        filename: "Qt5Gui.cps"
+        kind: "cps"
+      -
+        filename: "qt5gui.cps"
+        kind: "cps"
+      -
+        filename: "Qt5GuiConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5gui-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "5.15.18"
+      version_complete: "5.15.18"
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt5Gui"
+      search_paths:
+        - "/data/data/com.termux/files/usr/lib/cmake/Qt5Widgets/.."
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/Qt5GuiConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/qt5gui-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/lib64/cps/Qt5Gui.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/lib64/cps/qt5gui.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/lib/cps/Qt5Gui.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/lib/cps/qt5gui.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/share/cps/Qt5Gui.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/share/cps/qt5gui.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5GuiConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/qt5gui-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake"
+      mode: "config"
+      version: "5.15.18"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/data/data/com.termux/files/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt5Widgets"
+    configs:
+      -
+        filename: "Qt5Widgets.cps"
+        kind: "cps"
+      -
+        filename: "qt5widgets.cps"
+        kind: "cps"
+      -
+        filename: "Qt5WidgetsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5widgets-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt5Widgets"
+      search_paths:
+        - "/data/data/com.termux/files/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/Qt5WidgetsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/qt5widgets-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/lib64/cps/Qt5Widgets.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/lib64/cps/qt5widgets.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/lib/cps/Qt5Widgets.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/lib/cps/qt5widgets.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/share/cps/Qt5Widgets.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/share/cps/qt5widgets.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5WidgetsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/qt5widgets-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake"
+      mode: "config"
+      version: "5.15.18"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/data/data/com.termux/files/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt5"
+    components:
+      -
+        name: "Core"
+        required: true
+        found: false
+      -
+        name: "Widgets"
+        required: true
+        found: false
+    configs:
+      -
+        filename: "Qt5.cps"
+        kind: "cps"
+      -
+        filename: "qt5.cps"
+        kind: "cps"
+      -
+        filename: "Qt5Config.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt5"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/lib64/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/lib64/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/financetracker/build/CMakeFiles/pkgRedirects/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/.opencode/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/.opencode/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/.opencode/lib64/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/.opencode/lib64/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/.opencode/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/.opencode/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/.opencode/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/.opencode/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/lib64/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/lib64/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/home/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib64/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib64/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Zlib/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Zlib/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Xml/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Xml/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5XkbCommonSupport/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5XkbCommonSupport/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5XcbQpa/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5XcbQpa/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Widgets/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Widgets/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5VulkanSupport/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5VulkanSupport/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5ThemeSupport/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5ThemeSupport/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Test/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Test/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Sql/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Sql/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5ServiceSupport/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5ServiceSupport/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5PrintSupport/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5PrintSupport/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5PlatformCompositorSupport/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5PlatformCompositorSupport/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5OpenGLExtensions/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5OpenGLExtensions/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5OpenGL/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5OpenGL/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Network/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Network/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5InputSupport/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5InputSupport/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Gui/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Gui/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5GlxSupport/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5GlxSupport/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5FontDatabaseSupport/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5FontDatabaseSupport/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5FbSupport/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5FbSupport/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5EventDispatcherSupport/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5EventDispatcherSupport/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5EglSupport/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5EglSupport/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5EdidSupport/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5EdidSupport/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5DeviceDiscoverySupport/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5DeviceDiscoverySupport/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5DBus/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5DBus/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Core/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Core/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Concurrent/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5Concurrent/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5BootstrapDBus/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/data/com.termux/files/usr/lib/cmake/Qt5BootstrapDBus/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/data/data/com.termux/files/usr/lib/cmake/Qt5/Qt5Config.cmake"
+      mode: "config"
+      version: "5.15.18"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/data/data/com.termux/files/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/FindSQLite3.cmake:78 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/data/data/com.termux/files/usr/sbin/"
+      - "/data/data/com.termux/files/usr/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/data/data/com.termux/files/home/.opencode/bin/pkg-config"
+      - "/data/data/com.termux/files/home/.opencode/bin/pkgconf"
+      - "/data/data/com.termux/files/home/bin/pkg-config"
+      - "/data/data/com.termux/files/home/bin/pkgconf"
+    found: "/data/data/com.termux/files/usr/bin/pkg-config"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/data/data/com.termux/files/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/FindSQLite3.cmake:80 (pkg_check_modules)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib_PC_SQLite3_sqlite3"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sqlite3"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/lib/"
+    found: "/data/data/com.termux/files/usr/lib/libsqlite3.so"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/data/data/com.termux/files/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/FindSQLite3.cmake:84 (find_path)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "path"
+    variable: "SQLite3_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sqlite3.h"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/include/"
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/home/bin/"
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/apex/com.android.virt/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/odm/bin/"
+      - "/vendor/bin/"
+      - "/vendor/xbin/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/"
+      - "/data/data/com.termux/files/usr/include/"
+      - "/data/data/com.termux/files/usr/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+    found: "/data/data/com.termux/files/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/data/data/com.termux/files/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/FindSQLite3.cmake:91 (find_library)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "library"
+    variable: "SQLite3_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sqlite3"
+      - "sqlite"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/lib/"
+      - "/data/data/com.termux/files/home/.opencode/bin/"
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/product/bin/"
+      - "/apex/com.android.runtime/bin/"
+      - "/apex/com.android.art/bin/"
+      - "/system_ext/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+      - "/data/data/com.termux/files/usr/lib/"
+      - "/data/data/com.termux/files/usr/"
+    found: "/data/data/com.termux/files/usr/lib/libsqlite3.so"
+    search_context:
+      ENV{PATH}:
+        - "/data/data/com.termux/files/home/.opencode/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/home/bin"
+        - "/data/data/com.termux/files/usr/bin"
+        - "/product/bin"
+        - "/apex/com.android.runtime/bin"
+        - "/apex/com.android.art/bin"
+        - "/apex/com.android.virt/bin"
+        - "/system_ext/bin"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/odm/bin"
+        - "/vendor/bin"
+        - "/vendor/xbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/data/data/com.termux/files/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+...

@@ -1,0 +1,224 @@
+{
+    "accounts": [
+        {
+            "balance": 0.0,
+            "color": "#27AE60",
+            "id": 2,
+            "name": "Cash",
+            "type": "Cash"
+        },
+        {
+            "balance": 0.0,
+            "color": "#3498DB",
+            "id": 1,
+            "name": "Main Checking",
+            "type": "Checking"
+        },
+        {
+            "balance": 1000.0,
+            "color": "#3498DB",
+            "id": 4,
+            "name": "My Money",
+            "type": "Checking"
+        },
+        {
+            "balance": 500.0,
+            "color": "#FF5500",
+            "id": 3,
+            "name": "New Account",
+            "type": "Checking"
+        }
+    ],
+    "categories": [
+        {
+            "budget_limit": 100.0,
+            "color": "#E91E63",
+            "id": 8,
+            "name": "Entertainment",
+            "type": "Expense"
+        },
+        {
+            "budget_limit": 500.0,
+            "color": "#E74C3C",
+            "id": 4,
+            "name": "Food",
+            "type": "Expense"
+        },
+        {
+            "budget_limit": 100.0,
+            "color": "#8BC34A",
+            "id": 10,
+            "name": "Healthcare",
+            "type": "Expense"
+        },
+        {
+            "budget_limit": 1500.0,
+            "color": "#9B59B6",
+            "id": 6,
+            "name": "Housing",
+            "type": "Expense"
+        },
+        {
+            "budget_limit": 10000.0,
+            "color": "",
+            "id": 11,
+            "name": "Money",
+            "type": "Expense"
+        },
+        {
+            "budget_limit": 200.0,
+            "color": "#00BCD4",
+            "id": 9,
+            "name": "Shopping",
+            "type": "Expense"
+        },
+        {
+            "budget_limit": 200.0,
+            "color": "#3498DB",
+            "id": 5,
+            "name": "Transportation",
+            "type": "Expense"
+        },
+        {
+            "budget_limit": 150.0,
+            "color": "#F39C12",
+            "id": 7,
+            "name": "Utilities",
+            "type": "Expense"
+        },
+        {
+            "budget_limit": 0.0,
+            "color": "#2ECC71",
+            "id": 2,
+            "name": "Freelance",
+            "type": "Income"
+        },
+        {
+            "budget_limit": 0.0,
+            "color": "#16A085",
+            "id": 3,
+            "name": "Investments",
+            "type": "Income"
+        },
+        {
+            "budget_limit": 0.0,
+            "color": "#27AE60",
+            "id": 1,
+            "name": "Salary",
+            "type": "Income"
+        }
+    ],
+    "export_date": {
+        "date": ""
+    },
+    "savings_goals": [
+        {
+            "color": "#27AE60",
+            "current_amount": 12.0,
+            "id": 1,
+            "name": "Vacation",
+            "target_amount": 2500.0,
+            "target_date": "2026-10-06"
+        }
+    ],
+    "tags": [
+        {
+            "color": "#9B59B6",
+            "id": 1,
+            "name": "Money"
+        }
+    ],
+    "transactions": [
+        {
+            "account_id": 3,
+            "amount": 240.0,
+            "category_id": 2,
+            "date": "2026-04-26",
+            "description": "Small Lotery",
+            "id": 7,
+            "tags": "",
+            "type": "Income"
+        },
+        {
+            "account_id": 2,
+            "amount": 1000.0,
+            "category_id": 2,
+            "date": "2026-04-20",
+            "description": "Job Bonus",
+            "id": 9,
+            "tags": "",
+            "type": "Income"
+        },
+        {
+            "account_id": 1,
+            "amount": 2000.0,
+            "category_id": 5,
+            "date": "2026-04-18",
+            "description": "Car Repair",
+            "id": 8,
+            "tags": "",
+            "type": "Expense"
+        },
+        {
+            "account_id": 2,
+            "amount": 120.0,
+            "category_id": 4,
+            "date": "2026-04-12",
+            "description": "Groceries",
+            "id": 3,
+            "tags": "",
+            "type": "Expense"
+        },
+        {
+            "account_id": 2,
+            "amount": 2500.0,
+            "category_id": 2,
+            "date": "2026-04-06",
+            "description": "Lotery",
+            "id": 4,
+            "tags": "",
+            "type": "Income"
+        },
+        {
+            "account_id": 2,
+            "amount": 550.0,
+            "category_id": 8,
+            "date": "2026-04-06",
+            "description": "New Phone",
+            "id": 2,
+            "tags": "Money",
+            "type": "Expense"
+        },
+        {
+            "account_id": 2,
+            "amount": 60.0,
+            "category_id": 8,
+            "date": "2026-04-05",
+            "description": "New Game",
+            "id": 5,
+            "tags": "Forza Horizon 5,Gaming",
+            "type": "Expense"
+        },
+        {
+            "account_id": 4,
+            "amount": 500.0,
+            "category_id": 1,
+            "date": "2026-04-01",
+            "description": "Money",
+            "id": 6,
+            "tags": "",
+            "type": "Income"
+        },
+        {
+            "account_id": 1,
+            "amount": 1200.0,
+            "category_id": 1,
+            "date": "2026-04-01",
+            "description": "Salary",
+            "id": 1,
+            "tags": "",
+            "type": "Income"
+        }
+    ],
+    "version": "1.0"
+}

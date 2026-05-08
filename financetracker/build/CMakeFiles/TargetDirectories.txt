@@ -1,0 +1,9 @@
+/data/data/com.termux/files/home/financetracker/build/CMakeFiles/finance_tracker.dir
+/data/data/com.termux/files/home/financetracker/build/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/financetracker/build/CMakeFiles/rebuild_cache.dir
+/data/data/com.termux/files/home/financetracker/build/CMakeFiles/list_install_components.dir
+/data/data/com.termux/files/home/financetracker/build/CMakeFiles/install.dir
+/data/data/com.termux/files/home/financetracker/build/CMakeFiles/install/local.dir
+/data/data/com.termux/files/home/financetracker/build/CMakeFiles/install/strip.dir
+/data/data/com.termux/files/home/financetracker/build/CMakeFiles/finance_tracker_autogen_timestamp_deps.dir
+/data/data/com.termux/files/home/financetracker/build/CMakeFiles/finance_tracker_autogen.dir

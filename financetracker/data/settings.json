@@ -1,0 +1,7 @@
+{
+    "backupPath": "data/finance.db",
+    "currency": "EUR",
+    "dateFormat": "DD/MM/YYYY",
+    "notifications": true,
+    "theme": "light"
+}
